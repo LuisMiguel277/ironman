@@ -3,39 +3,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
 header{
+    height: 70%;
     background-image: linear-gradient(to bottom,#590202,#D90404);
     text-align: left;
     padding: 12px;
 }
 header>h1>strong{
-    color: white;
     font-weight: normal;
+    color: white;
 }
 section{
-    max-width: 1500px;
-    min-width: 350px;
     box-shadow: 0px 8px 6px #000000e4;
     background-color: #590202;
-    padding: 7px;
+    padding: 5px;
 }
 section>a{
     padding-left: 20px;
-    color: white;
     font-size: 1.2em;
     font-weight: bold;
+    font-family: "Nunito",Times,Serif;
     text-decoration: none;
+    color: white;
 }
 section>a:hover{
-    margin: 10px;
     padding: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    color: #590202;
     border-radius: 10px;
     background-color: white;
-    color: #590202;
 }
 main{
     width: 95%;
@@ -49,80 +51,63 @@ article{
 article>h2,h3,p{
     padding: 10px;
 }
-article>p>a{
-    color: #590202;
-    font-weight: 515;
-    text-decoration: none;
-    border-radius: 30px;
-}
-article>p>a:hover{
-    text-decoration: underline;
-    background-color: #590202;
-    border-radius: 30px;
-    padding: 0px 5px 5px 5px;
-    color: white;
-}
-
 footer>h3{
-    box-shadow: none;
-    border-radius: 0px;
+    padding: 3px;
     background-color: #D90404;
+    border-radius: 0px;
     font-size: 1em;
     text-align: center;
-    padding: 5px;
 }
 footer>h3>a{
-    color: white;
     text-decoration: none;
+    color: white;
 }
 footer>h3>a:hover{
-    padding: 5px;
+    padding: 3px;
     background-color: #590202;
     text-decoration: underline;
 }
 picture{
     display: flex;
     justify-content: center;
-    
-}
-img{
-    width: 70%;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 img#logo{
-    width: 75%;
-    height: 500px;
-    border: solid black;
-    box-shadow: 0px;
     padding: 0px;
+    width: 73%;
+    border: solid black;
+}
+img{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 70%;
 }
 h1{
-    font-weight: normal;
-    font-family: "Bebas Neue",Times,serif;
     font-size: 4.5em;
+    font-family: "Bebas Neue",Times,serif;
+    font-weight: normal;
 }
 h2{
     font-family: "Figtree",Times,Serif;
-    font-size: 2.7em;
-
+    font-size: 2.5em;
+    font-weight: 700;
 }
 h3{
     color: white;
+    font-family: "Nunito",Times,Serif;
+    font-size: 1.6em;
+    border-radius: 30px;
     background-color: black;
     box-shadow: 4px 8px 6px #000000c9;
-    border-radius: 30px;
-    font-family: "Nunito",Times,Serif;
-    font-size: 1.5em;
-    padding: 10px 19px 15px 20px;
+    padding: 10px 0px 10px 20px;
+
 }
 p{
     margin: 15px;
-    padding: 12px;
     border-radius: 10px;
-    text-indent: 12px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.347);
+    text-indent: 12px;
     font-family: "Ysabeau SC",Times,Serif;
+    font-weight: normal;
     font-size: 1.3em;
-
+    padding: 12px;
 }
